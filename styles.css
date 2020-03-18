@@ -1,0 +1,92 @@
+html{
+    overflow-y: scroll;
+}
+
+body {
+    background-color: #123249;
+}
+
+h1, h2, h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #efefef;
+    text-align: center;
+    text-shadow: .12rem .12rem #091d2b;
+}
+
+h4, h5, h6 {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #cfcfcf;
+    text-align: center;
+    text-shadow: .1rem .1rem #091d2b;
+}
+
+.nav-bar, .footer, .emptyspace {
+    width: 100%;
+    display: inline-block;
+}
+
+.nav-left a{
+    float: left;
+    margin: .8rem 1rem;
+    text-decoration: none;
+}
+
+.personal-icon {
+    width: 3.5rem;
+    vertical-align: middle;
+}
+
+.nav-right a{
+    float: right;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+    color: #efefef;
+    margin: .8rem 1rem;
+    padding: 5px 5px;
+    text-decoration: none;
+    text-shadow: .1rem .1rem #091d2b;
+}
+
+.nav-right a:hover {
+    color: #c2c2c2;
+}
+
+.nav-right a.active {
+    color: #d63333;
+}
+
+.profile-picture {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: 0.05rem 0.15rem .2rem 0rem #091d2b;
+}
+
+.fa {
+    text-align: center;
+    color: #efefef;
+    text-decoration: none;
+    text-shadow: .15rem .15rem #091d2b;
+}
+
+.fa:hover {
+    color: #c2c2c2;
+}
+
+.credit {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #cfcfcf;
+    text-align: center;
+    text-shadow: .1rem .1rem #091d2b;
+}
+
+.bio {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin: 0 4rem;
+    color: #cfcfcf;
+    text-shadow: .1rem .1rem #091d2b;
+}
