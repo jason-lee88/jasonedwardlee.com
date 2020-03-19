@@ -32,8 +32,9 @@ h4, h5, h6 {
 
 .personal-icon {
     width: 4vw;
-    min-width: 25px;
+    min-width: 22px;
     margin: 1vw 1vw;
+    margin-right: 0;
     vertical-align: middle;
 }
 
