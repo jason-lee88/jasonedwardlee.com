@@ -33,7 +33,7 @@ h4, h5, h6 {
 .personal-icon {
     width: 4vw;
     min-width: 30px;
-    margin: .8rem 1vw;
+    margin: 1vw 1vw;
     vertical-align: middle;
 }
 
@@ -44,7 +44,7 @@ h4, h5, h6 {
     text-align: center;
     vertical-align: middle;
     color: #efefef;
-    margin: .8rem 1vw;
+    margin: 1vw 1vw;
     padding: 5px 5px;
     text-decoration: none;
     text-shadow: .1rem .1rem #091d2b;
