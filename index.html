@@ -5,12 +5,16 @@
         <meta name="description", content="Jason Lee's Personal Website">
         <meta name="keywords", content="HTML, CSS, Lehigh, University, Computer, Science, Jason, Lee">
         <meta name="author", content="Jason Lee">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Home | Jason Lee</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="blinkingcursor.css">
         <link rel="shortcut icon" href="favicon.ico">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="jquery.js"></script>
+        <script>
+            $("#footer").load('includes/footer.html');
+        </script>
     </head>
 
     <body> <!-- Page elements -->
@@ -37,15 +41,15 @@
                 <img class="profile-picture" src="images/me.jpg" width=200 draggable="false">
             </div>
             <div class="emptyspace", style="height: 20px"></div>
-            <div class="footer"> <!-- Social links, footnote -->
-                <div class="social-links" style="font-size: 48px; text-align: center;">
-                    <a class="fa fa-envelope" href="mailto:jason.e.lee8@gmail.com" target="_blank"></a>
-                    <a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/jasonlee88/" target="_blank"></a>
-                    <a class="fa fa-github" href="https://github.com/jason-lee88" target="_blank"></a>
-                    <a class="resume-icon" href="resume.pdf" target="_blank" style="margin: 0 0;"></a>
-                </div>
-                <p class="credit">Built from scratch with <span style="color: #d63333">HTML</span> and <span style="color: #d63333">CSS</span> by Jason Lee</p>
-            </div>
+            <div id="footer"></div> <!-- Social links, footnote -->
         </div>
     </body>
 </html>
+
+<div id="preload"> <!-- Preloaded elements -->
+    <img src="images/me.jpg">
+    <img src="images/personal-icon.png">
+    <img src="images/personal-icon-shadow.png">
+    <img src="images/resume-icon.png">
+    <img src="images/resume-icon-hover.png">
+</div>

@@ -1,3 +1,7 @@
+#preload { /* Preload elements (images) to cache images on visit */
+    display: none;
+}
+
 ::-moz-selection { /* Selection on FireFox*/
     background-color: #ff8585;
 }
