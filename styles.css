@@ -85,6 +85,19 @@ h4, h5, h6 {
     color: #c2c2c2;
 }
 
+.resume-icon { /* Resume icon */
+    position: relative;
+    content:url('images/resume-icon.png');
+    margin: 0 0;
+    vertical-align: middle;
+    top: -6px;
+    height: 44px;
+}
+
+.resume-icon:hover {
+    content:url('images/resume-icon-hover.png');
+}
+
 .credit { /* Footnote */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
