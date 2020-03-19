@@ -27,13 +27,13 @@ h4, h5, h6 {
 
 .nav-left a{
     float: left;
-    margin: .8rem 1rem;
+    margin: .8rem 1vw;
     text-decoration: none;
 }
 
 .personal-icon {
     width: 4vw;
-    min-width: 20px;
+    min-width: 30px;
     vertical-align: middle;
 }
 
