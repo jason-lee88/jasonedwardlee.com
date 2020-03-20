@@ -32,6 +32,13 @@ h4, h5, h6 {
     text-shadow: .1rem .1rem #091d2b;
 }
 
+hr {
+    background-color: #d63333;
+    box-shadow: .1rem .1rem #091d2b;
+    height: 2px;
+    border: none;
+}
+
 .nav-bar, .footer, .emptyspace { /* Navigation bar */
     width: 100%;
     display: inline-block;
