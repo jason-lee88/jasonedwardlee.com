@@ -124,3 +124,69 @@ hr {
     color: #cfcfcf;
     text-shadow: .1rem .1rem #091d2b;
 }
+
+.card-space {
+    transform: translate(38%, 0);
+}
+
+.card-container {
+    display: inline-block;
+}
+
+.card {
+    width: 25vw;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    background-color: #000000;
+    box-shadow: .2rem .4rem .2rem #091d2b;
+    border-radius: 1.5vw;
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: .6rem .8rem .6rem #091d2b;
+}
+
+.card-image {
+    width: 100%;
+    margin-top: 1.7vw;
+}
+
+.card-project-title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2vw;
+    text-shadow: 0 0 !important;
+    text-align: left;
+    color: #cfcfcf;
+    margin: 2vh 10px;
+}
+
+.card-project-description {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2vw;
+    text-shadow: 0 0 !important;
+    text-align: left;
+    color: #a2a2a2;
+    margin: 2vh 10px;
+}
+
+.card-project-date {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1vw;
+    position: relative;
+    text-shadow: 0 0 !important;
+    color: #929292;
+    margin: 2vh 10px;
+}
+
+.card-click {
+    display: inline-block;
+    top: 0;
+    left: 0;
+    margin: 0 0;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: none;
+    border-radius: 1.5vw;
+}
