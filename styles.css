@@ -3,11 +3,11 @@
 }
 
 ::-moz-selection { /* Selection on FireFox*/
-    background-color: #ff8585;
+    background-color: #b44b4b;
 }
 
 ::selection { /* Selection general*/
-    background-color: #ff8585;
+    background-color: #b44b4b;
 }
 
 html{ /* Scroll bar always visible */
