@@ -1,0 +1,9 @@
+.content-wrapper {
+    display: flex;
+    width: 64%;
+    height: 74%;
+    border-radius: 25px;
+    border: solid white;
+    box-shadow: 0px 0px 20px white;
+    padding: 3%;
+}
