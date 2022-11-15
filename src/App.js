@@ -3,12 +3,12 @@ import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import ContentWrapper from "./components/ContentWrapper/ContentWrapper";
 import CodeWallpaper from "./components/CodeWallpaper/CodeWallpaper";
-import Home from "./components/Home/Home";
-import Experience from "./components/Experience/Experience";
-import Projects from "./components/Projects/Projects";
-import Contact from "./components/Contact/Contact";
-import Resume from "./components/Resume/Resume";
-import NotFound from "./components/NotFound/NotFound";
+import Home from "./pages/Home/Home";
+import Experience from "./pages/Experience/Experience";
+import Projects from "./pages/Projects/Projects";
+import Contact from "./pages/Contact/Contact";
+import Resume from "./pages/Resume/Resume";
+import NotFound from "./pages/NotFound/NotFound";
 import "./App.css";
 
 const App = () => {

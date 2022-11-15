@@ -19,7 +19,7 @@ const Footer = () => {
         </a>
         <Link className="resume-icon" to="/resume" />
       </div>
-      <div className="credit">{"Designed & Built by Jason Lee"}</div>
+      <div className="credit">Designed & Built with React by Jason Lee</div>
     </div>
   );
 };
