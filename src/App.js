@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import ContentWrapper from "./components/ContentWrapper/ContentWrapper";
+import CodeWallpaper from "./components/CodeWallpaper/CodeWallpaper";
 import Home from "./components/Home/Home";
 import Experience from "./components/Experience/Experience";
 import Projects from "./components/Projects/Projects";
@@ -26,6 +27,7 @@ const App = () => {
           </Routes>
         </ContentWrapper>
         <Footer />
+        <CodeWallpaper />
       </BrowserRouter>
     </div>
   );
