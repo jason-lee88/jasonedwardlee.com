@@ -1,14 +1,14 @@
-import { useEffect } from "react";
-import { useSpring, animated } from "react-spring";
+import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 import "./CodeWallpaper.css";
 
 const CodeWallpaper = () => {
-  const [offset, offsetApi] = useSpring(() => ({ x: 0, y: 0 }));
+  const [coords, setCoords] = useState({ x: 0, y: 0 });
 
   const handleMouseMove = (event) => {
-    offsetApi.start({
-      x: (window.innerWidth / 2 - event.clientX) * 0.05,
-      y: (window.innerHeight / 2 - event.clientY) * 0.05,
+    setCoords({
+      x: (window.innerWidth / 2 - event.clientX) * 0.02,
+      y: (window.innerHeight / 2 - event.clientY) * 0.04,
     });
   };
 
@@ -21,9 +21,10 @@ const CodeWallpaper = () => {
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
-    <animated.div
+    <motion.div
       className="parallax-wallpaper"
-      style={{ ...offset, transform: "scale(1.2)" }}
+      animate={coords}
+      transition={{ type: "spring", damping: 30, stiffness: 300 }}
     />
   );
 };

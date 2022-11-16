@@ -1,7 +1,7 @@
 .parallax-wallpaper {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 120%;
+  height: 120%;
   backface-visibility: hidden;
   background-position-x: center;
   background-position-y: center;

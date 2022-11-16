@@ -1,7 +1,12 @@
 import "./Projects.css";
+import PageTransitionWrapper from "../../components/PageTransitionWrapper/PageTransitionWrapper";
 
 const Projects = () => {
-  return <div className="projects-container">Projects Page</div>;
+  return (
+    <PageTransitionWrapper pageId="projects">
+      <div className="projects-container">Projects Page</div>
+    </PageTransitionWrapper>
+  );
 };
 
 export default Projects;
