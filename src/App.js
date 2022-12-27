@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { AnimatePresence } from "framer-motion";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import ContentWrapper from "./components/ContentWrapper/ContentWrapper";
@@ -18,16 +17,14 @@ const App = () => {
       <BrowserRouter>
         <NavBar />
         <ContentWrapper>
-          <AnimatePresence>
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/resume" element={<Resume />} />
-              <Route path="/experience" element={<Experience />} />
-              <Route path="/projects" element={<Projects />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </AnimatePresence>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/experience" element={<Experience />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
         </ContentWrapper>
         <Footer />
         <CodeWallpaper />
