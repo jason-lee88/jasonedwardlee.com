@@ -1,0 +1,23 @@
+h1 {
+  font-family: var(--font-script);
+  margin-bottom: 30px;
+  color: var(--blue);
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 80px;
+  color: var(--off-white);
+  margin: 0px;
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: 80px;
+  margin: 0px;
+  line-height: 1.1;
+}
+
+p {
+  max-width: 540px;
+}
