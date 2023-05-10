@@ -1,23 +1,18 @@
 import styled from "styled-components";
 
 const StyledSection = styled.section`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  max-width: 1000px;
-  margin: 0px auto;
+  min-height: 100vh;
 
   h1 {
     font-family: var(--font-script);
     margin-bottom: 30px;
-    color: var(--blue);
+    color: ${({ theme }) => theme.colors.theme};
     line-height: 1.1;
   }
 
   h2 {
     font-size: 80px;
-    color: var(--off-white);
+    color: ${({ theme }) => theme.colors.heading};
   }
 
   h3 {

@@ -38,7 +38,7 @@ import InterExtraBoldItalicWoff2 from "../fonts/Inter-ExtraBoldItalic.woff2";
 import InterBlackWoff2 from "../fonts/Inter-Black.woff2";
 import InterBlackItalicWoff2 from "../fonts/Inter-BlackItalic.woff2";
 
-import MarckScriptRegular from "../fonts/MarckScript-Regular.ttf";
+import PacificoRegular from "../fonts/Pacifico-Regular.ttf";
 
 const Fonts = css`
   @font-face {
@@ -204,11 +204,11 @@ const Fonts = css`
   }
 
   @font-face {
-    font-family: "Marck Script";
+    font-family: "Pacifico";
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(${MarckScriptRegular}) format("ttf");
+    src: url(${PacificoRegular}) format("truetype");
   }
 `;
 

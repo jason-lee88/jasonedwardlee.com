@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import ColorSchemeToggle from "./ColorSchemeToggle";
 
 const StyledNav = styled.nav`
   display: flex;
@@ -18,7 +19,7 @@ const StyledNav = styled.nav`
 
   a {
     text-decoration: none;
-    color: var(--off-white);
+    color: var(--theme);
   }
 
   #navlinks {
@@ -27,7 +28,11 @@ const StyledNav = styled.nav`
   }
 `;
 
-const NavBar = () => (
+interface NavBarProps {
+  toggleColorScheme: () => void;
+}
+
+const NavBar = ({ toggleColorScheme }: NavBarProps) => (
   <StyledNav id="nav">
     <span>LOGO</span>
     <div id="navlinks">
@@ -45,6 +50,7 @@ const NavBar = () => (
           <a href="/#contact">Contact</a>
         </li>
       </ul>
+      <ColorSchemeToggle toggleColorScheme={toggleColorScheme} />
     </div>
   </StyledNav>
 );

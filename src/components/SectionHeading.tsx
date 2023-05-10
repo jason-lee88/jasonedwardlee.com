@@ -5,7 +5,7 @@ const StyledHeading = styled.h1`
   align-items: center;
   font-family: var(--font-script);
   font-size: 32px;
-  color: var(--blue);
+  color: ${({ theme }) => theme.colors.theme};
   padding-bottom: 20px;
   ::before {
     display: block;
@@ -13,7 +13,7 @@ const StyledHeading = styled.h1`
     height: 2px;
     content: "";
     margin-right: 10px;
-    background-color: var(--blue);
+    background-color: ${({ theme }) => theme.colors.theme};
     top: -5px;
   }
   ::after {
@@ -22,7 +22,7 @@ const StyledHeading = styled.h1`
     height: 2px;
     content: "";
     margin-left: 10px;
-    background-color: var(--blue);
+    background-color: ${({ theme }) => theme.colors.theme};
     top: -5px;
   }
 `;

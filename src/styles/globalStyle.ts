@@ -14,8 +14,8 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     margin: 0;
-    background-color: var(--navy);
-    color: var(--light-gray);
+    background-color: ${({ theme }) => theme.colors.background};
+    color: ${({ theme }) => theme.colors.typography};
     font-family: var(--font-sans);
   }
 
@@ -25,8 +25,16 @@ const GlobalStyle = createGlobalStyle`
     align-items: center;
     position: fixed;
     width: 100%;
-    background-color: var(--navy);
+    background-color: ${({ theme }) => theme.colors.background};
     height: var(--navbar-height);
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding: 20px;
   }
 
   #layout {
@@ -39,13 +47,18 @@ const GlobalStyle = createGlobalStyle`
   }
 
   section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0px auto;
     padding-top: var(--navbar-height);
-    min-height: 100vh;
+    max-width: 1000px;
   }
 
   h1, h2, h3, h4, h5, h6 {
     margin: 0;
-    color: var(--light-gray);
+    color: ${({ theme }) => theme.colors.typography};
     line-height: 1.1;
   }
 `;
