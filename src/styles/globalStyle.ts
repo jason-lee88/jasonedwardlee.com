@@ -19,6 +19,16 @@ const GlobalStyle = createGlobalStyle`
     font-family: var(--font-sans);
   }
 
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: var(--navy);
+    height: var(--navbar-height);
+  }
+
   #layout {
     display: flex;
     flex-direction: column;

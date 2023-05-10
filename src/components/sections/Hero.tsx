@@ -1,6 +1,13 @@
 import styled from "styled-components";
 
 const StyledSection = styled.section`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: 0px auto;
+
   h1 {
     font-family: var(--font-script);
     margin-bottom: 30px;
