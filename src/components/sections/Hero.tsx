@@ -1,7 +1,29 @@
 import styled from "styled-components";
 
+const StyledSection = styled.section`
+  h1 {
+    font-family: var(--font-script);
+    margin-bottom: 30px;
+    color: var(--blue);
+    line-height: 1.1;
+  }
+
+  h2 {
+    font-size: 80px;
+    color: var(--off-white);
+  }
+
+  h3 {
+    font-size: 80px;
+  }
+
+  p {
+    max-width: 540px;
+  }
+`;
+
 const Hero = () => (
-  <section id="hero">
+  <StyledSection id="hero">
     <h1>Hi, my name is</h1>
     <h2>Jason Lee.</h2>
     <h3>I'm a software developer.</h3>
@@ -10,7 +32,7 @@ const Hero = () => (
       currently building a modern, accessible, and flexible web platform at
       Lutron Electronics.
     </p>
-  </section>
+  </StyledSection>
 );
 
 export default Hero;

@@ -9,6 +9,7 @@ const GlobalStyle = createGlobalStyle`
   :root {
     line-height: 1.55;
     box-sizing: border-box;
+    scroll-behavior: smooth;
   }
 
   body {
@@ -30,6 +31,12 @@ const GlobalStyle = createGlobalStyle`
   section {
     padding-top: var(--navbar-height);
     min-height: 100vh;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    color: var(--light-gray);
+    line-height: 1.1;
   }
 `;
 
